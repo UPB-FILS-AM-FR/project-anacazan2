@@ -1,43 +1,43 @@
 # Smart Object Finder
 
-## Author
+## Auteur
 Cazan Ana-Maria
 
 ## Description
-Smart Object Finder is an ESP32-based project designed to help users locate misplaced objects using a mobile application.
+Smart Object Finder est un projet basé sur ESP32 conçu pour aider les utilisateurs à retrouver des objets perdus à l’aide d’une application mobile.
 
-The system uses:
+Le système utilise :
 - ESP32
-- RGB LED
-- Active buzzer
-- Blynk mobile application
+- LED RGB
+- Buzzer actif
+- Application mobile Blynk
 
-When the FIND button is pressed in the application:
-- the red LED starts blinking
-- the buzzer emits a beep-beep sound
+Lorsque le bouton FIND est pressé dans l’application :
+- la LED rouge commence à clignoter
+- le buzzer émet un son “beep-beep”
 
-When STOP is pressed:
-- the buzzer stops
-- the LED becomes green for 5 seconds
-- then returns to blue standby mode
+Lorsque le bouton STOP est pressé :
+- le buzzer s’arrête
+- la LED devient verte pendant 5 secondes
+- puis revient au mode veille bleu
 
 ## Motivation
-The project was created to provide a simple and interactive way to locate personal objects such as keys, bags, or backpacks.
+Le projet a été créé pour offrir une solution simple et interactive permettant de retrouver facilement des objets personnels comme des clés, des sacs ou des sacs à dos.
 
 ## Architecture
-The ESP32 acts as the central controller and communicates with the Blynk application through WiFi.
+L’ESP32 agit comme contrôleur principal et communique avec l’application Blynk via WiFi.
 
-## Components
+## Composants
 - ESP32 Dev Module
-- RGB LED
-- Active buzzer
+- LED RGB
+- Buzzer actif 3V
 - Breadboard
-- Jumper wires
-- Power bank
+- Fils jumper
+- Batterie externe
 
-## Features
-- Remote control from phone
-- Audio alert
-- Visual alert
-- Portable system
-- Works using hotspot connection
+## Fonctionnalités
+- Contrôle à distance depuis le téléphone
+- Alerte sonore
+- Alerte visuelle
+- Système portable
+- Fonctionnement via hotspot WiFi
