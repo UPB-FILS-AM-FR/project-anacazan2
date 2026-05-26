@@ -1,7 +1,7 @@
 # Smart Object Finder
 
 ## Author
-Podeanu Andrei
+Cazan Ana-Maria
 
 ## Description
 Smart Object Finder is an ESP32-based project designed to help users locate misplaced objects using a mobile application.
